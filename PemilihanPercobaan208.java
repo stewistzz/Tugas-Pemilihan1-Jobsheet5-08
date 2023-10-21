@@ -21,17 +21,17 @@ public class PemilihanPercobaan208 {
         System.out.println("Nilai Akhir = " + total + " sehingga " + message);
 
         // konversi nilai ke char
-        if (total >= 80) {
+        if (total > 80) {
             System.out.println("Konversi nilai anda = A");
-        } else if (total >= 73) {
+        } else if (total > 73) {
             System.out.println("Konversi nilai anda = B+");
-        } else if (total >= 65) {
+        } else if (total > 65) {
             System.out.println("Konversi nilai anda = B");
-        } else if (total >= 60) {
+        } else if (total > 60) {
             System.out.println("Konversi nilai anda = C+");
-        } else if (total >= 50) {
+        } else if (total > 50) {
             System.out.println("Konvesi nilai anda = C");
-        } else if (total >= 39) {
+        } else if (total > 39) {
             System.out.println("Konversi nilai anda = D");
         } else {
             System.out.println("Konversi nilai anda = E");
